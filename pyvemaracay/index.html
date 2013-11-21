@@ -33,18 +33,19 @@ false});</script>
     <div class="col-md-4">
     </div>
     <div class="col-md-8">
-        <div class="menu-header">
+        <div class="menu-header" style="position:fixed;background-color:white;z-index:1000;">
             <ul class="nav nav-pills nav-justified menu-header-pills">
               <li><a href="#smoothdescription"><small>Inicio</small></a></li>
-              <li><a href="#smoothfeatures"><small>Ponencias</small></a></li>
-              <li><a href="#inscribete"><small>Cómo Inscribirse</small></a></li>
-              <li><a href="#smoothsteps"><small>Mantente Informado</small></a></li>
+              <li><a href="#smoothfeaturesam"><small>Ponencias AM</small></a></li>
+              <li><a href="#smoothfeaturespm"><small>Ponencias PM</small></a></li>
+              <li><a href="#smoothinscribete"><small>Cómo Inscribirse</small></a></li>
+              <li><a href="#smoothdonde"><small>Dónde</small></a></li>
             </ul>
         </div>
     </div>
     </div>
 </section>
-<section class="container_white presentation" style="display: none;">
+<section class="container_white presentation" style="display: none;margin-top:45px">
     <div class="container">
     <div class="row col-md-12">
         <img src="assets/img/opencfdi.png" class="img-centered"/>
@@ -59,12 +60,16 @@ multipropósito, multiplataforma y multiparadigma fácil de aprender y divertido
     <hr class="separator-small"/>
     <div class="col-md-12">
     <div class="col-md-7">
-        <img src="assets/img/fotolia_57684861.resized.jpg" class="pull-left"/>
+        <div class="row">
+            <img src="assets/img/fotolia_57684861.resized.jpg" class="pull-left"/>
+        </div>
+        <div class="row">
+        </div>
     </div>
     <div class="col-md-5">
         <div class="lead">
-            <h3>A quien está dirigido</h3> 
-            <ul>
+        <h3><strong>¿A quien está dirigido?</strong></h3> 
+        <ul>
                 <li>Estudiantes</li>
                 <li>Emprendedores</li>
                 <li>Desarrolladores</li>
@@ -74,21 +79,30 @@ multipropósito, multiplataforma y multiparadigma fácil de aprender y divertido
                 aliados.</li>
             </ul>
         </div>
-          <a id="inscribete" href="https://docs.google.com/forms/d/1qStrJPkV-KTdA1L9rze7_UKes_2p3Ff7fGlpAdHjFXE/viewform?pli=1&edit_requested=false"
-          class="btn btn-primary btn-lg pull-right" target="_NEW"><span class="glyphicon glyphicon-pencil"/> Inscribete</a>
     </div>
     </div>
     </div>
 </div>
 </section>
-<section>
+<section id="smoothinscribete">
     <div class="container">
+        <div class="jumbotron">
+            <h1>¿Como inscribirse?</h1>
+            <p class="lead">Inscribete haciendo click en el botón, y llenando tus datos.
+            Inscribirse es importante para poder, los organizadores tomar las previsiones y la
+            logística nos permita pasar un día disfrutando el placer de aprender y programar con
+            python.</p>
+            <p class="lead">
+              <a href="https://docs.google.com/forms/d/1qStrJPkV-KTdA1L9rze7_UKes_2p3Ff7fGlpAdHjFXE/viewform?pli=1&edit_requested=false"
+              class="btn btn-primary btn-lg pull-right" target="_NEW"><span class="glyphicon glyphicon-pencil"/> Inscribete</a>
+            </p>
+        </div>
     </div>
 </section>
 <section id="smoothfeatures">
 <div class="container">
 <hr class="featurette"/>
-<div class="col-md-8">
+<div class="col-md-12">
 <div class="panel-group" id="accordion">
   <div class="panel panel-primary">
     <div class="panel-heading">
@@ -100,35 +114,70 @@ multipropósito, multiplataforma y multiparadigma fácil de aprender y divertido
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
       <div class="panel-body">
-          Todas las ponencias confirmadas las puedes ver abajo.
+          <p class="lead">Todas las ponencias confirmadas las puedes ver abajo, acompañadas de las horas en las que
+          se llevarán a cabo.</p>
       </div>
     </div>
   </div>
+</div><!-- Panel Group-->
+</div><!-- Panel Row-->
+<!--Ponencias-->
+<div class="col-md-12" id="smoothfeaturesam">
+<h1 class="text-left">Mañana</h1>
+<div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
-        <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-            <span class="glyphicon glyphicon-plus"></span>
-        </a>
-        Todos deberían programar
-        </h4>
-    </div>
-    <div id="collapseSix" class="panel-collapse collapse">
-      <div class="panel-body">
-        Jesús Gómez
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-            <span class="glyphicon glyphicon-plus"></span>
+          <div class="panel-title">
+            <p class=lead>
+            <h4><span class="glyphicon glyphicon-plus"></span> Todos deberían programar</h4></p>
+            <p class="lead"><h4 class="text-right" align="right"><small> 9:00 a.m. - 10:00 a.m.</small></h4></p>
+          </div>
         </a>
-            Testing la etapa olvidada
-      </h4>
-    </div>
+    </div><!-- Panel heading -->
     <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        <h4 class="media-heading"> Jesús Gómez </h4>
+        <div class="media-body">
+        </div>
+      </div><!-- Panel body -->
+    </div><!-- Panel collapse -->
+  </div><!-- Panel default -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          <div class="panel-title">
+            <p class=lead>
+            <h4><span class="glyphicon glyphicon-plus"></span> Python en la web sin framework</h4></p>
+            <p class="lead"><h4 class="text-right" align="right"><small> 10:00 a.m. - 11:00 a.m.</small></h4></p>
+          </div>
+        </a>
+    </div><!-- Panel heading -->
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="media-body">
+            <h4 class="media-heading"> Elías Escobar </h4>
+            <p>Con más de 13 años dedicado a la Computación, Informática y
+            Sistemas, realizando proyectos tales como el INFO-SANTE Y SISTEMA
+            DE CONTROL POR OBJETIVOS en el Centro de Salud y Servicios
+            Sociales de Montreal, Quebec Canada.</p>
+            <small>twitter: @eliascan</small>
+            <small><a href="http://cgipy.wordpress.com/">su blog</a></small>
+        </div>
+      </div><!-- Panel body -->
+    </div><!-- Panel collapse -->
+  </div><!-- Panel default -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          <div class="panel-title">
+            <p class=lead>
+            <h4><span class="glyphicon glyphicon-plus"></span> Testing la etapa olvidada</h4></p>
+            <p class="lead"><h4 class="text-right" align="right"><small> 11:00 a.m. - 12:00 a.m.</small></h4></p>
+          </div>
+        </a>
+    </div><!-- Panel heading -->
+    <div id="collapseFour" class="panel-collapse collapse">
       <div class="panel-body">
         <div class="media">
         <a class="pull-left">
@@ -138,60 +187,69 @@ multipropósito, multiplataforma y multiparadigma fácil de aprender y divertido
         </a>
         <div class="media-body">
             <h4 cl="media-heading">Israel Fermín</h4>
-            <p>"Geek de nacimiento, informático de formación y músico por diversión..." su <a
-                href="http://iferminmontilla.com/category/acerca-de.html">blog</a></p>
+            <p>"Geek de nacimiento, informático de formación y músico por diversión..."</p>
+            <small>twitter: @iferminm</small>
+            <small><a href="http://iferminmontilla.com/">su blog</a></small>
         </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </div><!-- media -->
+      </div><!-- Panel body -->
+    </div><!-- Panel collapse -->
+  </div><!-- Panel default -->
+</div>
+</div>
+<div class="col-md-12" id="smoothfeaturespm">
+<h1>Tarde</h1>
+<div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-            <span class="glyphicon glyphicon-plus"></span>
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+          <div class="panel-title">
+            <p class=lead>
+            <h4><span class="glyphicon glyphicon-plus"></span> Empezando con Django</h4></p>
+            <p class="lead"><h4 class="text-right" align="right"><small> 01:00 p.m. - 02:00 p.m.</small></h4></p>
+          </div>
         </a>
-             Python en la web sin framework.
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse">
+    </div><!-- Panel heading -->
+    <div id="collapseFive" class="panel-collapse collapse">
       <div class="panel-body">
+        <h4 class="media-heading"> Dehivis Oliver </h4>
         <div class="media-body">
-            <h4 class="media-heading">Elías Escobar</h4>
         </div>
-      </div>
-    </div>
-  </div>
+      </div><!-- Panel body -->
+    </div><!-- Panel collapse -->
+  </div><!-- Panel default -->
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-            <span class="glyphicon glyphicon-plus"></span>
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+          <div class="panel-title">
+            <p class=lead>
+            <h4><span class="glyphicon glyphicon-plus"></span> Desarrollo ágil con Web2Py</h4></p>
+            <p class="lead"><h4 class="text-right" align="right"><small> 02:00 p.m. - 03:00 p.m.</small></h4></p>
+          </div>
         </a>
-            Aplicaciones a 300.000 km/s con Web2py
-      </h4>
-    </div>
-    <div id="collapseSeven" class="panel-collapse collapse">
+    </div><!-- Panel heading -->
+    <div id="collapseSix" class="panel-collapse collapse">
       <div class="panel-body">
         <div class="media-body">
-            <h4 class="media-heading">Roberto Perdomo</h4>
+            <h4 class="media-heading"> Roberto Perdomo </h4>
             <p>Profesión: Ingeniero de Sistemas</p>
             <p>Trabajo actual: Programador en la UCV, campus Maracay</p>
             <p>Algunas contribuciones al Software Libre: Codemirror, Web2py (Admin app/Libro/Correcciones leves)</p>
         </div>
-      </div>
-    </div>
-  </div>
+      </div><!-- Panel body -->
+    </div><!-- Panel collapse -->
+  </div><!-- Panel default -->
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-            <span class="glyphicon glyphicon-plus"></span>
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+          <div class="panel-title">
+            <p class=lead>
+            <h4><span class="glyphicon glyphicon-plus"></span> Openerp ajustado para Venezuela, gestiona tu empresa con Python</h4></p>
+            <p class="lead"><h4 class="text-right" align="right"><small> 03:00 p.m. - 04:00 p.m.</small></h4></p>
+          </div>
         </a>
-            Openerp ajustado para Venezuela, gestiona tu empresa con Python.
-      </h4>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse">
+    </div><!-- Panel heading -->
+    <div id="collapseSeven" class="panel-collapse collapse">
       <div class="panel-body">
         <div class="media">
         <a class="pull-left">
@@ -203,31 +261,35 @@ multipropósito, multiplataforma y multiparadigma fácil de aprender y divertido
             <h4 class="media-heading">Nhomar Hernández</h4>
             <p>CEO en <a href="http://vauxoo.com">Vauxoo</a>, consultor de openerp hace 5 años, amo
                 el Software libre y todo lo hago con python.</p>
+            <small>twitter: @nhomar</small>
+            <small><a href="http://geronimo.com.ve">su blog</a></small>
         </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-            <span class="glyphicon glyphicon-plus"></span>
-        </a>
-            Empezando con Django
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse">
-      <div class="panel-body">
-        Dehivis Oliver
-      </div>
-    </div>
-  </div>
+        </div><!-- media -->
+      </div><!-- Panel body -->
+    </div><!-- Panel collapse -->
+  </div><!-- Panel default -->
 </div>
 </div>
-<div class="col-md-4">
-<img src="assets/img/afiche-pyday-maracay.jpg" class="img img-thumbnail"/>
-</div>
+<hr class="featurette"/>
+</section>
+<section>
+    <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+    <img src="assets/img/afiche-pyday-maracay.jpg" class="img img-thumbnail"/>
+    </div>
+    </div>
+</section>
+<section id="smoothdonde">
+<hr class="featurette"/>
+    <div class="container">
+    <h1 class="text-center">¿Donde será el evento?</h1>
+    </div>
+<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+    src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=+Inces+La+Romana&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=50.37814,87.363281&amp;t=m&amp;ie=UTF8&amp;hq=Inces+La+Romana&amp;hnear=&amp;ll=10.254462,-67.615228&amp;spn=0.015414,0.021329&amp;z=14&amp;iwloc=A&amp;cid=8898211229881495216&amp;output=embed"></iframe><br
+/><small><a
+    href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=+Inces+La+Romana&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=50.37814,87.363281&amp;t=m&amp;ie=UTF8&amp;hq=Inces+La+Romana&amp;hnear=&amp;ll=10.254462,-67.615228&amp;spn=0.015414,0.021329&amp;z=14&amp;iwloc=A&amp;cid=8898211229881495216"
+    style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
 </section>
 <footer class="text-center">
     <div class="container">
