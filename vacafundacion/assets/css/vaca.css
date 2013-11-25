@@ -1,0 +1,6 @@
+/**
+ * Padding necesary due to fixed-top menu
+ */
+body {
+    padding-top: 70px;
+}
