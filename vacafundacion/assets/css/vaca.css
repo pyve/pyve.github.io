@@ -3,4 +3,13 @@
  */
 body {
     padding-top: 70px;
+    background-color: #eee;
+}
+.jumbotron {
+    background-color: #fff;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
