@@ -28,7 +28,7 @@ de control de versiones puedes enviar tu primer push cambio al sitio.
 
    $ git clone https://github.com/[tu_cuenta_en_github]/pyve.github.com.git
 
-3. Haz los cambios. Es decir, edita con las aplicaciones de tu preferencia los arcvhivos del
+3. Haz los cambios. Es decir, edita con las aplicaciones de tu preferencia los archivos del
    repositorio. Esto requiere realizar el ciclo típico de git: ``git status``, ``git add`` (si
    añades archivos), ``git commit``.
 
