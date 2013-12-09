@@ -3,7 +3,7 @@ Sitio PyVe en Github
 ====================
 
 Este proyecto tiene la intención de manejar el control de versiones del sitio
-http://python.org.ve/ que nos tener un pequeño tablero de control de la comunidad python en
+http://python.org.ve/ que nos permite tener un pequeño tablero de control de la comunidad Python en
 Venezuela. Técnicamente sólo contiene un conjunto de archivos **js**, **css** y **html**.
 
 Las tecnologías que usan están basadas en bootstrap_
@@ -17,7 +17,7 @@ Es muy sencillo. Con un tanto de conocimiento en **Javascript** y **HTML** y un 
 de control de versiones puedes enviar tu primer cambio al sitio.
 
 Como requisito, debes tener una cuenta en github y seguir los pasos que enumeraremos a continuación
-desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta muy facilmente en la página de
+desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta fácilmente en la página de
 github_.
 
 .. _github: http://www.github.com/
@@ -27,14 +27,14 @@ github_.
    proyecto en tu cuenta.
 
 2. **Descarga tu fork**. Abre el terminal y, en la carpeta donde tienes tus proyectos (si no la
-   tienes créala, no seas desorganizado) ejecuta el comando.
+   tienes créala, no seas desorganizado) ejecuta el siguiente comando:
 
 .. code-block:: shell
 
    $ git clone https://github.com/[tu_cuenta_en_github]/pyve.github.com.git
 
-3. **Haz los cambios**. Es decir, edita con las aplicaciones de tu preferencia los arcvhivos del
-   repositorio. Esto requiere realizar el ciclo típico de git: ``git status``, ``git add``, ``git
+3. **Haz los cambios**. Es decir, edita los arcvhivos del repositorio con las aplicaciones de tu
+   preferencia. Esto requiere realizar el ciclo típico de git: ``git status``, ``git add``, ``git
    commit``.
 
 4. **Sube los cambios a tu cuenta github**. Mediante el comando ``git push``.
