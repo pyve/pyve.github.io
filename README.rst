@@ -8,7 +8,7 @@ Venezuela. Técnicamente sólo contiene un conjunto de archivos **js**, **css** 
 
 Las tecnologías que usan están basadas en bootstrap_
 
-.. _bootstrap: http://twitter.github.io/bootstrap/
+.. _bootstrap: http://getbootstrap.com/
 
 ¿Cómo colaborar?
 ================
