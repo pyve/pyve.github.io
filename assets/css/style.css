@@ -169,6 +169,11 @@ a:focus {
 	SITE WRAPS
 ################################################################# */
 
+.themewrap {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
 #headerwrap {
     background-color: #306896;
     padding-top: 130px;
