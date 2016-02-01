@@ -1,0 +1,232 @@
+/*	################################################################
+
+	Author: Manuel Márquez
+	Project Name: Bootstrap 3 Theme for the website of Community PyVE
+	Version: 1.0
+        
+        This theme is based on SOLID - Bootstrap 3 Theme of Carlos Alvarez
+	URL: http://alvarez.is
+	
+################################################################# */ 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+* { 
+    margin: 0;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Flux'; /* Flux */
+    src: url('../fonts/ufonts.com_flux.ttf'); /*URL to font*/
+}        
+
+body { 
+    background: #ffffff; 
+    margin: 0; 
+    height: 100%; 
+    color: #1c212b;
+    font-family: 'Flux', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p { 
+    padding: 0; 
+    margin-bottom: 12px; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1c212b; 
+    margin-top: 10px; 
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a { 
+    padding: 0;
+    margin: 0;
+    text-decoration: none; 
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #d5f5eb;
+}
+
+::-moz-selection  {
+    color: #fff;
+    text-shadow:none;
+    background: #1c212b;
+}
+::selection {
+    color: #fff;
+    text-shadow:none;
+    background: #1c212b;
+}
+
+.centered {
+    text-align: center
+}
+
+/*	################################################################
+	BOOTSTRAP MODIFICATIONS & TWEAKS
+################################################################# */
+.navbar {
+    min-height: 70px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    font-family: 'Flux', sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.navbar-header .navbar-brand {
+    color: #FFD449;
+}
+
+.navbar-tagline {
+    color: #909090;
+    padding-bottom: 5px;
+    padding-top: 40px;
+}
+
+.navbar-logo {
+    float: right;
+    padding-left: 15px;
+}
+
+.navbar-default {
+    background-color: #1C3B56;
+    border-color: transparent;
+}
+
+.btn-theme-navbar {
+    color: #fff;
+    background-color: #3674A8;
+    border-color: #3674A8;
+    margin: 4px;
+    font-size: 18px;
+}
+.btn-theme-navbar:hover,
+.btn-theme-navbar:focus,
+.btn-theme-navbar:active,
+.btn-theme-navbar.active {
+    color: #fff;
+    background-color: #2D628D;
+    border-color: #2D628D;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: #3674A8;
+    border-color: #3674A8;
+    margin: 4px;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active {
+    color: #fff;
+    background-color: #2D628D;
+    border-color: #2D628D;
+}
+
+.hline-w {
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 25px;
+}
+
+/*	################################################################
+	SITE WRAPS
+################################################################# */
+
+.themewrap {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+#headerwrap {
+    background-color: #306896;
+    padding-top: 130px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#headerwrap h3, h5 {
+    color: white;
+    font-weight: 400;
+}
+
+#headerwrap h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+#headerwrap .img-responsive {
+    margin: 0 auto;
+}
+
+/* Features Wrap */
+#features {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+#features i {
+    color: #558AB7;
+    font-size: 60px;
+    padding: 15px;
+}
+
+/* Footer */
+#footerwrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #1C3B56;
+}
+
+#footerwrap p {
+    color: #909090;
+    font-size: 14px;
+}
+
+#footerwrap a {
+    color: #FFD449;
+}
+
+#footerwrap h4 {
+    color: #ffffff;
+}
+
+/* Ajuste de colores de la barra de navegación */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a.active {
+   color: #fff;
+   background-color: #2D628D;
+   border-color: #2D628D;
+}
