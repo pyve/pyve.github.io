@@ -22,24 +22,36 @@
   <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="navbarwrap">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="./index.html">pyve</a><br />
-            <div class="navbar-tagline">Entusiastas venezolanos de python y todas sus hierbas derivadas.</div>
-          </div>
-          <div class="navbar-logo"><img title="pyve Logo" src="./assets/img/pyve-logo.png" width="90" /></div>
-          <div class="navbar-buttons">
-            <a href="./python.html" class="btn btn-theme-navbar">Python</a>
-            <a href="./comunidad.html" class="btn btn-theme-navbar">Comunidad</a>
-            <a href="#" class="btn btn-theme-navbar">Fundación</a>
-            <a href="#" class="btn btn-theme-navbar">Blog</a>
-            <a href="#" class="btn btn-theme-navbar">Contacto</a>
-          </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">pyve</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="./python.html" >Python</a></li>
+            <li><a href="./comunidad.html" >Comunidad</a></li>
+            <li><a href="#fundacion" >Fundación PyVE</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./eventos/PyTatuy2016/index.html">PyTatuy 2016</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+          <div class="navbar-logo"><img title="pyve Logo" src="./assets/img/pyve-logo.png" width="90" /></div>
+        </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </nav>
 
     <!-- Section for definition of community -->
     <div id="headerwrap">
@@ -121,7 +133,7 @@
             btn-theme">Puedes saber más...</a></p>
           </div>		
         </div>
-      </div><! --/container -->
+      </div><!--/container -->
     </div>
 
     <!-- Footer -->
@@ -169,7 +181,16 @@
           </div>
         </div>
       </div>
-    </div><! --/footerwrap -->                        
+    </div><!--/footerwrap -->   .
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>                     
 
   </body>
 </html>
