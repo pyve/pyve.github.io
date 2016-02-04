@@ -22,16 +22,16 @@
 @font-face {
     font-family: 'Flux'; /* Flux */
     src: url('../fonts/ufonts.com_flux.ttf'); /*URL to font*/
-}        
+}
 
-body { 
-    background: #ffffff; 
-    margin: 0; 
-    height: 100%; 
+body {
+    background: #ffffff;
+    margin: 0;
+    height: 100%;
     color: #1c212b;
     font-family: 'Flux', sans-serif;
     font-weight: 400;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -199,22 +199,22 @@ a:focus {
 }
 
 /* Footer */
-#footerwrap {
+footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background: #1C3B56;
 }
 
-#footerwrap p {
+footer p {
     color: #909090;
     font-size: 14px;
 }
 
-#footerwrap a {
+footer a {
     color: #FFD449;
 }
 
-#footerwrap h4 {
+footer h4 {
     color: #ffffff;
 }
 
