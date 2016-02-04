@@ -188,14 +188,17 @@ a:focus {
 
 /* Features Wrap */
 #features {
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 4em;
 }
 
 #features i {
     color: #558AB7;
     font-size: 60px;
     padding: 15px;
+}
+
+#features .row {
+  margin-bottom: 4em;
 }
 
 /* Footer */
