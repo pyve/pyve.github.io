@@ -322,7 +322,7 @@ $(function () {
             $.each(data, function (i) {
                 console.log(data[i]);
                 //var content = "<div class=\"span2 text-center img-polaroid\"></div>";
-                var content = "<div class='col-sm-3'> <div class='card'><canvas class='header-bg' width='250' height='70' id='header-blur'></canvas> <div class='avatar'> <a href=\"" + data[i]["html_url"] + "\">" + "<img src=\"" + data[i]["avatar_url"] + "\" class=\"img-polaroid\" /><br>" + data[i]["login"] + "</a></div> </div></div></div>"
+                var content =  "<div class='col-sm-3'><div class='card'><canvas class='header-bg' width='250' height='70' id='header-blur'></canvas><div class='avatar'><img src=\'" + data[i]['avatar_url'] + "\' class=\'img-polaroid\' alt=\'" + data[i]['login'] + "\'/> </div> <div class='content'> <p>" + data[i]['login'] + "<br> <p><a href=\'" + data[i]['html_url'] + "\'><button type='button' class='btn btn-default'>Contacto</button></a></p></div></div></div>";
                 lista.append(content);
             });
         });
