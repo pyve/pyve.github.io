@@ -8,13 +8,13 @@ Venezuela. Técnicamente sólo contiene un conjunto de archivos _js_, _css_ y _h
 
 HTML+CSS+JS son las tecnologías empleadas en el diseño web de esta propuesta, el tema está basado en 
 el framework de diseño web [Bootstrap](http://getbootstrap.com/) y puede ser detallado en el archivo 
-```assets/css/style.css```.
+`assets/css/style.css`.
 
 ## ¿Cómo correr la página en tu local?
 
 Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejecuta:
 
-```bash
+```
 python -m SimpleHTTPServer
 ```
 
