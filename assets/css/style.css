@@ -208,7 +208,7 @@ footer {
     background: #1C3B56;
 }
 
-footer p {
+footer p, div {
     color: #909090;
     font-size: 14px;
 }
