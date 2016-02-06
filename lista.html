@@ -10,13 +10,17 @@
     <meta name="author" content="Manuel Márquez">
     <link rel="shortcut icon" href="./assets/img/pyve-logo-favicon.png">
 
-    <title>Python Venezuela</title>
+    <title>Comunidad Python de Venezuela</title>
 
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap-image-gallery.min.css">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="./assets/css/font-mfizz.css" rel="stylesheet">    
-
+    <link href="./assets/css/avatar-snippet.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -37,7 +41,7 @@
           <ul class="nav navbar-nav">
             <li><a href="./python.html" class="btn btn-theme-navbar">Python</a></li>
             <li><a href="./comunidad.html" class="btn btn-theme-navbar">Comunidad</a></li>
-
+            
             <li class="dropdown">  <!-- start of 'Eventos' -->
               <a href="#" class="dropdown-toggle btn btn-theme-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -49,95 +53,50 @@
             </li>  <!-- end of 'Eventos' -->
 
             <li><a href="./fundacion.html" class="btn btn-theme-navbar">Fundación PyVE</a></li>
-            <li><a href="./contactos.html" class="btn btn-theme-navbar">Contacto</a></li>
+            <li><a href="./contactos.html" class="active btn btn-theme-navbar">Contacto</a></li>
           </ul>
-
+          
           <div class="navbar-logo"><img title="pyve Logo" src="./assets/img/pyve-logo.png" width="90" /></div>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </nav> 
 
-    <!-- Section for definition of community -->
-    <div id="headerwrap">
+    <div class="themewrap">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h5>En Python Venezuela somos un grupo de entusiastas reunidos con
-              el objetivo de</h5>
-            <h1>promocionar y difundir las bondades del lenguaje de
-              programación Python.</h1>
-          </div>
+          <div class="col-md-12">
 
-          <div class="col-lg-8 col-lg-offset-2">
-            <img src="./assets/img/python-logo.png" class="img-responsive">
-          </div>
+          <!--Contenido-->
+          <p>La lista de correo es el principal canal de comunicación de la comunidad.</p>
+          <p>Y, tal vez lo más importante de ella, es la principal herramienta de ayuda con la que cuenta el público en general.</p>
+          <p>En ella, la comunidad realiza las siguientes contribuciones:</p>
+          <ul>
+            <li>Brinda ayuda a quienes enfrentan problemas técnicos relacionados con Python.</li>
+            <li>Anuncia y promociona eventos de iniciativa propia o relacionados con Python.</li>
+            <li>Comparte conocimientos de interés común.</li>
+            <li>Coordina esfuerzos de desarrollo.</li>
+            <li>Delibera sobre asuntos que determinan la toma de decisiones.</li>
+          </ul>
+          <p>Para que puedas participar en la lista, accede a <a href="https://groups.google.com/forum/#!forum/python-venezuela">
+          la página de la lista</a> y:
+          <ol>
+            <li>Solicite unirse al grupo</li>
+            <li>Lea el mensaje de bienvenida</li>
+          </ol>
+          <img src="img/solicitud_lista.png">
+          <p><strong>Importante</strong>: Lee las
+          <a href="https://github.com/pyve/documentos/blob/master/reglas-de-etiqueta-en-la-lista-de-correo.md">reglas de etiqueta
+          de las lista</a>.</p>
+          <h2>Acerca de las ofertas de empleo</h2>
+          <p>Si quieres hacer ofertas de empleo, hazlo a través de <a href="/empleos">nuestra aplicación de empleos</a>.</p>
+          <!--END Contenido-->
 
-          <div class="col-lg-8 col-lg-offset-2">
-            <h5>Así mismo el intercambio de experiencias hace de nuestro grupo el sitio idóneo para aprender, compartir, impulsar iniciativas y conocer programadores.</h5>
-          </div>
-
-        </div><!-- /row -->
-      </div> <!-- /container -->
-    </div><!-- /headerwrap -->
-
-    <!-- Features -->
-    <div id="features">
-      <div class="container">
-        <div class="row centered">
-          <div class="col-md-4">
-            <i class="fa fa-book"></i>
-            <h4>Recursos sobre Python</h4>
-            <p>En PyVe hemos recopilado una serie de recursos que consideramos
-            fundamentales al momento de desarrollar con Python.</p>
-            <p><br/><a href="https://github.com/pyve/awesome-pyve" class="btn btn-theme">Awesome PyVe</a></p>
-          </div>
-
-          <div class="col-md-4">
-            <i class="fa fa-envelope"></i>
-            <h4>Lista de Correos</h4>
-            <p>Acá encontrarás la información necesaria para suscribirte a nuestra
-            lista de correos, el canal principal de comunicación de la comunidad.</p>
-            <p><br/>
-            <a href="lista.html" class="btn btn-theme">Lista de Correos</a></p>
-          </div>
-
-          <div class="col-md-4">
-            <i class="fa fa-github"></i>
-            <h4>Proyectos</h4>
-            <p>Dale un vistazo a los proyectos que hemos desarrollado como comunidad o 
-            que han sido desarrollados por nuestros miembros.</p>
-            <p><br/><a href="https://github.com/pyve" class="btn btn-theme">Github</a></p>
           </div>
         </div>
 
-        <div class="row centered">
-          <div class="col-md-4">
-            <i class="fa fa-calendar"></i>
-            <h4>Eventos</h4>
-            <p>Infórmate sobre las diversas actividades que llevamos a cabo para 
-            la promoción del uso de Python como herramienta de desarrollo.</p>
-            <p><br/><a href="http://pyve.github.io/eventos" class="btn btn-theme">Eventos</a></p>
-          </div>
-
-          <div class="col-md-4">
-            <i class="fa fa-group"></i>
-            <h4>¿Quiénes Somos?</h4>
-            <p>Somos nerds y estamos orgullosos de eso. Mira los perfiles de las personas 
-            que hacen vida en la comunidad de Python Venezuela.</p>
-            <p><br/><a href="#" class="btn btn-theme disabled">Miembros</a></p>
-          </div>
-
-          <div class="col-md-4">
-            <i class="fa fa-briefcase"></i>
-            <h4>Ofertas Laborales</h4>
-            <p>Revisa la guía que hemos creado con recomendaciones para sacarle 
-            el máximo provecho a tu oferta.</p>
-            <p><br/><a href="#" class="btn btn-theme disabled">Recomendaciones</a></p>
-          </div>
-        </div>
-      </div><!--/container -->
+      </div> <!-- /container-->
     </div>
-
+        
     <footer>
       <div class="container">
         <div class="row">
@@ -184,14 +143,19 @@
       </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript
+     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>                     
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+    
+    <script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="./assets/js/bootstrap-image-gallery.min.js"></script>
+    <script src="./assets/js/avatar-snippet.js"></script>
 
   </body>
 </html>
