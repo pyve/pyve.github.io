@@ -49,3 +49,8 @@ Como requisito, debes tener una cuenta en github y seguir los pasos que enumeram
 [CONTRIBUTING.md](https://github.com/pyve/pyve.github.com/blob/master/CONTRIBUTING.md)
 desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta fácilmente en la página de
 [github](http://github.com).
+
+Descripción de cambios
+======================
+
+En el archivo [log.md](log.md) se van registrando las decisiones de diseño durante el desarrollo.
