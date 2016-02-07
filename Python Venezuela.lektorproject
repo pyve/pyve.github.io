@@ -1,5 +1,5 @@
 [project]
 name = Python Venezuela
 
-[servers.ghpages]
+[servers.master]
 target = master+https://nhomar/pyve.github.com
