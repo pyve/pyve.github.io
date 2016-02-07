@@ -2,23 +2,28 @@ branches:
   only:
   - generator
 language: python
+sudo: false
 python:
 - 2.7
 install:
-- pip install -r requirements.txt --index-url
+- pip install -r requirements.txt
 
 script:
 - make html
+
 notifications:
   email:
     on_success: always
     on_failure: always
+
 env:
   global:
   - secure: W9jdJcVLMok2QnSWn94bkBZL6yiP88paWBSQvj5pNwx6rMA/KAuAmEDTmxWCRpvte9CP1mTpPgNRwn7UhhmZsw4f1AKEAClxNbpbVUhiISW+LoVmlkhw//fp+qGplhun2ID9sJpfjsgun5Ue4+dcpvI2rHP17lC5ZgJBj3fx85M=
   - secure: EuleRVAaoed/C7mn6swpagRyfCf/ffhvavamXpqAx2KnbnAY1HX9sRFO8E2zCnjLLLz6ShgoWSNA4cloFnCbX41XbOnPXuUJkyBrV61X4twvVOcoDw/w2KVZfyhJ9umU5Ci4rr8kkGgIw8RPu8hFXP/0vVCk/I43t2K0KDshXrs=
   - secure: tY5eDaEk0GPUuXtkISDAceE9sjt5rVB1vcQ/7/zAYZsCp75y/jinKP393OPqxspW8yWk2UGmJnN8lU91ERF5XjKtQufFaeZJEY46Or90wIBpubWcCjzdk+MUGsu2hmUwwRKKnFFMQshGzw4WZXnBm+0c1HWeqbEqVLVIQhNb5aI=
+
 before_install:
 - echo "git submodule update --init --recursive"
 - echo "Compile here TODO"
+
 after_success: bash deploy.sh

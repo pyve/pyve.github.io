@@ -16,9 +16,12 @@ Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejec
 ```
 sudo pip install lektor
 git clone git@github.com:pyve/pyve.github.com.git
+git checkout generator
 cd pyve.github.com
 lektor server
 ```
+
+Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 
 ## Herramientas utilizadas
 
@@ -26,7 +29,6 @@ HTML+CSS+JS son las tecnologías empleadas en el diseño web de esta propuesta, 
 el framework de diseño web [Bootstrap](http://getbootstrap.com/) y puede ser detallado en el archivo 
 `assets/css/style.css`.
 
-Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 
 ## Consideraciones del proyecto
 
