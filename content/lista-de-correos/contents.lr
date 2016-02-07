@@ -1,0 +1,39 @@
+_model: page
+---
+body:
+
+   <div class="themewrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+          <!--Contenido-->
+          <p>La lista de correo es el principal canal de comunicación de la comunidad.</p>
+          <p>Y, tal vez lo más importante de ella, es la principal herramienta de ayuda con la que cuenta el público en general.</p>
+          <p>En ella, la comunidad realiza las siguientes contribuciones:</p>
+          <ul>
+            <li>Brinda ayuda a quienes enfrentan problemas técnicos relacionados con Python.</li>
+            <li>Anuncia y promociona eventos de iniciativa propia o relacionados con Python.</li>
+            <li>Comparte conocimientos de interés común.</li>
+            <li>Coordina esfuerzos de desarrollo.</li>
+            <li>Delibera sobre asuntos que determinan la toma de decisiones.</li>
+          </ul>
+          <p>Para que puedas participar en la lista, accede a <a href="https://groups.google.com/forum/#!forum/python-venezuela">
+          la página de la lista</a> y:
+          <ol>
+            <li>Solicite unirse al grupo</li>
+            <li>Lea el mensaje de bienvenida</li>
+          </ol>
+          <img src="/img/solicitud_lista.png">
+          <p><strong>Importante</strong>: Lee las
+          <a href="https://github.com/pyve/documentos/blob/master/reglas-de-etiqueta-en-la-lista-de-correo.md">reglas de etiqueta
+          de las lista</a>.</p>
+          <h2>Acerca de las ofertas de empleo</h2>
+          <p>Si quieres hacer ofertas de empleo, hazlo a través de <a href="/empleos">nuestra aplicación de empleos</a>.</p>
+          <!--END Contenido-->
+
+          </div>
+        </div>
+
+      </div> <!-- /container-->
+    </div>
