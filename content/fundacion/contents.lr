@@ -1,0 +1,58 @@
+_model: page-html
+---
+title: 
+---
+body:
+
+    <div class="themewrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+	    <h1 class="centered">¿Qué es la Fundación Python de Venezuela?</h1>
+
+            <p class="lead text-justify">
+              La Fundación Python de Venezuela (FPyVE) es una organización sin fines de lucro 
+              creada el 2 de febrero de 2015 dedicada a fomentar al lenguaje de programación Python. 
+              El objetivo principal es el desarrollo, ejecución y/o consultoría de proyectos científicos,
+              tecnológicos y productivos, para cumplir fines de interés público en torno al desarrollo Nacional,
+              haciendo uso y promoviendo para tal fin, el uso del lenguaje de programación Python y las
+              tecnologías asociadas a éste. 
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/img/python2.png" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+      	    <p class="text-justify">Dentro de las actividades que la fundación realizará para lograr el objetivo general están:</p>
+
+      	    <p class="text-justify">
+              1) Promover, crear, generar, asesorar y auspiciar proyectos tecnológicos y productivos de cualquier 
+              índole, incluyendo tecnologías organizacionales.</p>
+            <p class="text-justify">
+              2) Promover, crear, mantener y auspiciar proyectos de formación y capacitación profesional.</p>
+            <p class="text-justify">
+              3) Contribuir a la formación integral de la mayor cantidad posible de venezolanas y venezolanos, 
+              mediante la producción, divulgación y promoción científica y tecnológica.</p>
+            <p class="text-justify">
+              4) Mantener y desarrollar la Fundación, mediante la producción, edición, distribución y 
+                 exposiciones, programas de televisión y de radiodifusión relacionados con sus actividades y con 
+                 las técnicas actuales y futuras. Igualmente, podrá realizar diversas actividades destinadas a 
+                 recabar fondos financieros con el propósito de facilitar el desempeño y logro de sus objetivos y 
+                 fines. Podrá asociarse y promover la constitución de otras personas jurídicas cuyo objeto sea 
+                 similar al de la Fundación con el fin de coadyuvar al mejor desempeño y logro de sus objetivos y 
+                 fines. Queda entendido que las opciones y actividades mencionadas en esta clausula son de 
+                 carácter enunciativo y no restrictivo. Quedando expresamente establecido que en ningún caso se 
+                 repartirán entre los miembros de la Fundación ningún tipo de beneficios lucrativos, ganancias ni 
+                 cualquier otro provecho personal ni particular.</p>
+
+          </div>
+        </div>
+
+
+      </div> <!-- /container-->
+    </div>
