@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <div class="themewrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+  {% if this.title %}<h2>{{ this.title }}</h2>{% endif %}
+  {{ this.body }}
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
