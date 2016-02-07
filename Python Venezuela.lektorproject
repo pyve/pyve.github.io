@@ -2,4 +2,4 @@
 name = Python Venezuela
 
 [servers.master]
-target = master+https://nhomar/pyve.github.com
+target = ghpages+https://pyve/pyve.github.com
