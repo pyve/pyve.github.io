@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pyve/pyve.github.com.svg?branch=master)](https://travis-ci.org/pyve/pyve.github.com)
+
 # Propuesta de FrontEnd para el sitio web de la comunidad Python Venezuela
 
 Este proyecto tiene la intención de manejar el control de versiones del sitio
@@ -12,6 +14,9 @@ Está basada en el generador de páginas estáticas
 Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejecuta:
 
 ```
+sudo pip install lektor
+git clone git@github.com:pyve/pyve.github.com.git
+cd pyve.github.com
 lektor server
 ```
 
