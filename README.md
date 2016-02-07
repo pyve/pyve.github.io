@@ -35,6 +35,9 @@ Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 Es muy sencillo. Con un tanto de conocimiento en *javascript* y *HTML* y un manejo básico
 de control de versiones puedes enviar tu primer cambio al sitio.
 
+¿Cómo agregar un nuevo contenido?
+=================================
+
 Como requisito, debes tener una cuenta en github y seguir los pasos que enumeramos en el archivo 
 [CONTRIBUTING.md](https://github.com/pyve/pyve.github.com/blob/master/CONTRIBUTING.md)
 desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta fácilmente en la página de
