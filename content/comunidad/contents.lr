@@ -1,0 +1,220 @@
+_model: page-html-end-addon
+---
+title: 
+---
+body:
+
+    <div class="themewrap">
+      <div class="container">
+
+	<h1 class="centered">Actividades</h1>
+
+        <div class="row">
+          <div class="col-md-12">
+
+            <h2>Eventos</h2>
+
+            <p class="lead">En PyVE llevamos a cabo diversas actividades para la promoción del uso del lenguaje Python
+              como herramienta para desarrollo, algunas de estas actividades se
+              describen a continuación</p>
+
+            <h3>PyCon</h3>
+            <p>Es la conferencia de desarrolladores Python, organizada por los miembros de la comunidad local.
+              Usualmente consta de varios tracks con
+              diversos temas o enfoques técnicos o no técnicos para entusiastas de todos los niveles.</p>
+
+            <p>En un PyCon tendrás la oportunidad de:</p>
+            <ul>
+              <li>Presenciar una gran variedad de presentaciones, tutoriales y charlas relámpago.</li>
+              <li>Aprender acerca de los avances en la comunidad de desarrolladores Python.</li>
+              <li>Conocer pythonistas de otras partes del mundo.</li>
+              <li>Inscribirte en tutoriales impartidos por expertos.</li>
+              <li>Participar en jornadas de programación (sprints) con otros entusiastas.</li>
+            </ul>
+            <p><a href="http://ve.pycon.org" target="_blank" class="btn btn-theme">
+                <i class="fa fa-external-link"></i> Página del PyConVE 2012</a></p>
+
+            <h3>PyDay</h3>
+            <p>Un PyDay es una jornada de un día dedicada a Python, puede ser una jornada de iniciación
+              al lenguaje y a algunas de las herramientas basadas en Python.</p>
+
+            <h3><a href="https://pygouts-smag.rhcloud.com/">PyGouts</a></h3>
+            <p>De vez en cuando, a través de las listas de correo, surge algún interés sobre un tema o herramienta específico.
+              Usualmente alguien conoce y usa la herramienta y ofrece un taller vía Google Hangout para dar una introducción
+              y satisfacer el interés de los miembros de la comunidad.</p>
+            <p><a href="https://pygouts-smag.rhcloud.com/" target="_blank"
+                  class="btn btn-theme"><i class="fa fa-external-link"></i> Agenda actual de PyGouts</a></p>
+
+            <h3>PyMeeting</h3>
+            <p>Reuniones habituales para planificar eventos, hablar de los proyectos en los que trabajamos, compartir conocimiento
+              o simplemente compartir un tiempo como comunidad, se anuncian a través de la lista de correos.</p>
+
+          </div>
+        </div>        
+
+        <div class="row">
+          <div class="col-md-12">
+
+            <h2>Próximos Eventos</h2>
+
+            <iframe src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=400&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=41cpjmjp1m85bh5niokpr5vgdc%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FCaracas" style=" border-width:0 " width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+
+            <h2>Eventos Pasados</h2>
+
+            <h3>Pycon Venezuela 2012</h3>
+            
+            <div id="links-pyconve2012">
+              <a href="{{''|url}} title="Asistentes al PyConVE" data-gallery>
+                <img src="/img/pyconve2012/thumbnails/pyconve-2012-150x150.jpg"
+                     alt="Asistentes al PyConVE" class="img-rounded">
+              </a>
+            </div>
+            
+            <h3>1er Encuentro Python 2008</h3>
+
+            <!-- The Bootstrap Image Gallery -->
+            <div id="blueimp-gallery" class="blueimp-gallery">
+              <!-- The container for the modal slides -->
+              <div class="slides"></div>
+              <!-- Controls for the borderless lightbox -->
+              <h3 class="title"></h3>
+              <a class="prev">‹</a>
+              <a class="next">›</a>
+              <a class="close">×</a>
+              <a class="play-pause"></a>
+              <ol class="indicator"></ol>
+              <!-- The modal dialog, which will be used to wrap the lightbox content -->
+              <div class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                      </button>
+                      <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /blueimp-gallery -->
+
+            <div id="links">
+              <a href="/img/encuentro_python_2008/afiche-0x600.jpg" title="Afiche" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/afiche-150x150.jpg"
+                     alt="Afiche" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/asistentes_pyve-0x600.jpg"
+                 title="Asistentes al encuentro" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/asistentes_pyve-150x150.jpg"
+                     alt="Asistentes al encuentro" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/carlos_expo1-0x600.jpg"
+                 title="Charla de Carlos" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/carlos_expo1-150x150.jpg"
+                     alt="Charla de Carlos" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/carlos_pyve1-0x600.jpg" title="Carlos" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/carlos_pyve1-150x150.jpg"
+                     alt="Carlos" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/carolina_nerissa-0x600.jpg"
+                 title="Carolina y Nerissa" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/carolina_nerissa-150x150.jpg"
+                     alt="Carolina y Nerissa" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/carolina_pyve2-0x600.jpg"
+                 title="Charla de Carolina" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/carolina_pyve2-150x150.jpg"
+                     alt="Charla de Carolina" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/carolina_pyve-0x600.jpg"
+                 title="Charla de Carolina" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/carolina_pyve-150x150.jpg"
+                     alt="Charla de Carolina" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/francisco_pyve-0x600.jpg"
+                 title="Charla de Francisco" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/francisco_pyve-150x150.jpg"
+                     alt="Charla de Francisco" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/grupo_pyve1-0x600.jpg"
+                 title="Grupo PyVE" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/grupo_pyve1-150x150.jpg"
+                     alt="Grupo PyVE" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/grupo_pyve2-0x600.jpg"
+                 title="Grupo PyVE" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/grupo_pyve2-150x150.jpg"
+                     alt="Grupo PyVE" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/grupo_pyve-0x600.jpg"
+                 title="Grupo PyVE" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/grupo_pyve-150x150.jpg"
+                     alt="Grupo PyVE" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/milton_pyve-0x600.jpg"
+                 title="Charla de Milton" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/milton_pyve-150x150.jpg"
+                     alt="Charla de Milton" class="img-rounded">
+              </a>
+              <a href="/img/encuentro_python_2008/roberto_plone-0x600.jpg"
+                 title="Charla de Roberto sobre Plone" data-gallery>
+                <img src="/img/encuentro_python_2008/thumbnails/roberto_plone-150x150.jpg"
+                     alt="Charla de Roberto sobre Plone" class="img-rounded">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+
+	<div class="row">
+	  <h2> Pythonistas Venezolanos </h2>
+	</div>
+
+    <div id="lista_pythonistas" class="row">
+    </div>
+
+
+        
+        
+      </div> <!-- /container-->
+    </div>
+
+---
+addon:
+
+    <script>
+$(function () {
+    var membersURL = "https://api.github.com/orgs/pyve/members";
+    var lista = $("#lista_pythonistas");
+
+    var getPyVeMembers = function () {
+        $.getJSON(membersURL).then(function (data) {
+            $.each(data, function (i) {
+                console.log(data[i]);
+                //var content = "<div class=\"span2 text-center img-polaroid\"></div>";
+                var content =  "<div class='col-sm-3'><div class='card'><canvas class='header-bg' width='250' height='70' id='header-blur'></canvas><div class='avatar'><img src=\'" + data[i]['avatar_url'] + "\' class=\'img-polaroid\' alt=\'" + data[i]['login'] + "\'/> </div> <div class='content'> <p>" + data[i]['login'] + "<br> <p><a href=\'" + data[i]['html_url'] + "\'><button type='button' class='btn btn-default'>Contacto</button></a></p></div></div></div>";
+                lista.append(content);
+            });
+        });
+    };
+    getPyVeMembers();
+});
+    </script>
+  </body>
+</html>

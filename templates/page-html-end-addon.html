@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  {% if this.title %}<h2>{{ this.title }}</h2>{% endif %}
+  {{ this.body }}
+{% endblock %}
+{% block addon %}
+  {{ this.addon }}
+{% endblock %}
