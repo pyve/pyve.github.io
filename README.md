@@ -2,7 +2,18 @@
 
 Este proyecto tiene la intención de manejar el control de versiones del sitio
 http://python.org.ve/ que nos permite tener un pequeño tablero de control de la comunidad Python en
-Venezuela. Técnicamente sólo contiene un conjunto de archivos _js_, _css_ y _html_.
+Venezuela.
+
+Está basada en el generador de páginas estáticas
+[lektor](https://github.com/lektor/lektor)
+
+## ¿Cómo correr la página en tu local?
+
+Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejecuta:
+
+```
+lektor server
+```
 
 ## Herramientas utilizadas
 
@@ -10,15 +21,7 @@ HTML+CSS+JS son las tecnologías empleadas en el diseño web de esta propuesta, 
 el framework de diseño web [Bootstrap](http://getbootstrap.com/) y puede ser detallado en el archivo 
 `assets/css/style.css`.
 
-## ¿Cómo correr la página en tu local?
-
-Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejecuta:
-
-```
-python -m SimpleHTTPServer
-```
-
-Luego visita http://localhost:8000 en tu navegador y ¡voilá!
+Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 
 ## Consideraciones del proyecto
 
