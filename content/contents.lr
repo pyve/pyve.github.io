@@ -61,7 +61,7 @@ body:
             <h4>Eventos</h4>
             <p>Infórmate sobre las diversas actividades que llevamos a cabo para 
             la promoción del uso de Python como herramienta de desarrollo.</p>
-            <p><br/><a href="http://pyve.github.io/eventos" class="btn btn-theme">Eventos</a></p>
+            <p><br/><a href="/eventos" class="btn btn-theme">Eventos</a></p>
           </div>
 
           <div class="col-md-4">
