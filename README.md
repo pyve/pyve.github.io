@@ -20,7 +20,7 @@ python -m SimpleHTTPServer
 
 Luego visita http://localhost:8000 en tu navegador y ¡voilá!
 
-## Consideraciones del proyecto
+## Consideraciones del proyecto.
 
 * Este repositorio git trata de cumplir con las reglas que propone el flujo de trabajo [git-flow](http://nvie.com/posts/a-successful-git-branching-model/).
 * Esta propuesta trata de cumplir con las reglas que propone el [versionamiento semantico](http://semver.org/lang/es/).
