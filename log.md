@@ -1,5 +1,7 @@
 # Decisiones de diseño
 
+## Nuevos modelos: page-html y page-md
+
 La página de contactos era muy sencilla y podía escribirse en markdown.
 
 Este es su contenido en markdown:
@@ -49,3 +51,20 @@ El bloque body dentro de la nueva plantilla quedó así:
 
 Ahora tenemos dos modelos: page-html y page-md, para elegir al momento de hacer
 una página.
+
+## Nuevo modelo: page-html-end-addon
+
+Este modelo tuve que definirlo para poder incluir un script arbitrario al final
+de una página.
+
+El caso específico fue lapágina de la comunidad, que incluye un script al final
+de la página, lo cuál no cumplía con el patrón de (cabecera, cuerpo, pie) de
+todas las demás, donde sólo el cuerpo varía. En esta página, el pie era
+diferente.
+
+Añadía un bloque llamado "addon" al final del layout principal, que todos pueden
+definir. El nuevo modelo page-html-end-addon incluye un campo addon que su layout
+coloca en el bloque mencionado.
+
+De esta manera, pude agregar el script que llena la lista de los pythonistas de
+Venezuela.
