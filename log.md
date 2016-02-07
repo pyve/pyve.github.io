@@ -81,60 +81,8 @@ Cito lo comentado por Nhomar:
 
 Informo para luego documentar
 
-> [4:09] 
-> el que me vuelva a decir que malo es que la herramienta tome decisiones por tí lo busco y lo golpeo
-> 
-> [4:09] 
-> si el repo no se llamaba pyve.github(.io)
-> 
-> [4:09] 
-> no funcionaba
-> 
-> [4:10] 
-> como se llamaba ).com)
-> 
-> [4:10] 
-> lo mandab a ghpages
-> 
-> [4:10] 
-> jajajajaa
-> 
-> [4:10] 
-> por eso me tardé tanto
-> 
-> [4:10] 
-> por otro lado
-> 
-> [4:10] 
-> El repo “default” serña el repo llamado “generator"
-> 
-> [4:10] 
-> allí está el README.md que ya teníamos de lektor
-> 
-> [4:10] 
-> opiniones?
-> 
-> [4:10] 
-> son bin recibidas
-> 
-> [4:11] 
-> bloquié el push directo solo a admionistradores
-> 
-> [4:11] 
-> para evitar errores de ded
-> 
-> [4:11] 
-> ya la página es´ta up
-> 1  
-> 
-> [4:11] 
-> and running
-> 
-> [4:11] 
-> engo 100 ideas
-> 
-> [4:11] 
-> tengo
-> 
-> [4:11] 
-> ***
+Si el repo no se llamaba pyve.github(.io) no funcionaba. Como se llamaba ).com)
+lo mandab a ghpages
+
+El repo “default” serña el repo llamado “generator"
+allí está el README.md que ya teníamos de lektor.
