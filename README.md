@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pyve/pyve.github.com.svg?branch=generator)](https://travis-ci.org/pyve/pyve.github.com)
+
 # Propuesta de FrontEnd para el sitio web de la comunidad Python Venezuela
 
 Este proyecto tiene la intención de manejar el control de versiones del sitio
@@ -12,8 +14,14 @@ Está basada en el generador de páginas estáticas
 Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejecuta:
 
 ```
+sudo pip install lektor
+git clone git@github.com:pyve/pyve.github.com.git
+git checkout generator
+cd pyve.github.com
 lektor server
 ```
+
+Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 
 ## Herramientas utilizadas
 
@@ -21,7 +29,6 @@ HTML+CSS+JS son las tecnologías empleadas en el diseño web de esta propuesta, 
 el framework de diseño web [Bootstrap](http://getbootstrap.com/) y puede ser detallado en el archivo 
 `assets/css/style.css`.
 
-Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 
 ## Consideraciones del proyecto
 
@@ -34,6 +41,9 @@ Luego visita http://localhost:5000 en tu navegador y ¡voilá!
 
 Es muy sencillo. Con un tanto de conocimiento en *javascript* y *HTML* y un manejo básico
 de control de versiones puedes enviar tu primer cambio al sitio.
+
+¿Cómo agregar un nuevo contenido?
+=================================
 
 Como requisito, debes tener una cuenta en github y seguir los pasos que enumeramos en el archivo 
 [CONTRIBUTING.md](https://github.com/pyve/pyve.github.com/blob/master/CONTRIBUTING.md)
