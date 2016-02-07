@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pyve/pyve.github.com.svg?branch=generator)](https://travis-ci.org/pyve/pyve.github.com)
+[![Build Status](https://travis-ci.org/pyve/pyve.github.io.svg?branch=generator)](https://travis-ci.org/pyve/pyve.github.io)
 
 # Propuesta de FrontEnd para el sitio web de la comunidad Python Venezuela
 
