@@ -11,6 +11,7 @@
   padding: 0;
   background-color: #3674A8;
   color: rgb(136, 172, 217);
+  margin-bottom: 1em;
 }
 
 .card .header-bg {
@@ -23,6 +24,8 @@
   border-bottom: 1px #FFF solid;
   /* This positions the canvas under the text */
   z-index: 1;
+  background-color: #FFD449;
+  opacity: 0.9;
 }
 .card .avatar {
   position: relative;
@@ -37,4 +40,22 @@
   -moz-border-radius: 50%;
   border-radius: 50%;
   border: 5px solid rgba(0,0,30,0.8);
+}
+
+.card .content {
+  padding: 1em 0;
+  color: #fff;
+}
+
+.card .content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card .content a:hover {
+  text-decoration: underline;
+}
+
+i.fa {
+  padding: 0 0.5rem;
 }
