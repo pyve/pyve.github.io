@@ -68,3 +68,9 @@ coloca en el bloque mencionado.
 
 De esta manera, pude agregar el script que llena la lista de los pythonistas de
 Venezuela.
+
+## Enlace a otros sitios
+
+He dejado los enoaces a sitios que están dentro de pyve pero son autónomos con
+dirección absoluta y no relativa. Ejemplo, http://pyve.github.io/empleos/ y
+las páginas propias de los eventos listados.
