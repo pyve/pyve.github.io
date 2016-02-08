@@ -108,3 +108,10 @@ A partir de ahora deberás clonar nuevamente tus repositorios para continuar
 contribuyendo como lo has hecho hasta ahora solo que no editarás sobre el
 branch master (éste se generará automáticamente) deberás hacerlo siguiendo las
 estrategias de lektor en el branch generator.
+
+### Generación automática de contenido a partir de los md en el home del proyecto.
+
+Cuando agregamos datos importantes al home, cómo la licencia, los
+contribuidores y el tema de los README y los HOWTO se hizo un script
+.pre-build.py que los convierte en contenido lektor para ser renderizados
+correctamente en la página también.

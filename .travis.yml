@@ -13,6 +13,7 @@ install:
 - pip install -r requirements.txt
 
 script:
+- "python .pre-build.py"
 - "lektor build"
 - 'test "$TRAVIS_PULL_REQUEST" == false && test "$TRAVIS_BRANCH" == master && lektor deploy generator'
 
