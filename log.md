@@ -82,11 +82,12 @@ El funcionamiento de la compilación de la página es el descrito en la
 
 Consideraciones específicas de éste proyecto:
 
-EL usuario con el que el push a master se está haciendo es `pyvebot`, para éste
+El usuario con el que el push a master se está haciendo es `pyvebot`, para éste
 usuario se ha creado una cuenta de correo no supervisada `pyvebot@gmail.com`,
-dicha cuenta está configurada con un token como es recomendado en la
-documentación, en caso de requerir las credenciales para administrarla para
-futuros automatismos nhomar en gmail.com te puede ayudar.
+dicha cuenta está configurada con un token en github como es recomendado en la
+documentación de lektor para mayor seguridad, en caso de requerir las credenciales
+ para administrarla para futuros automatismos nhomar en gmail.com
+ te puede ayudar.
 
 Se activó el caché y se instala lektor con requirements.txt para poder en dado
 caso automatizar algún otro proceso a través de git hooks.
