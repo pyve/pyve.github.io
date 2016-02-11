@@ -1,0 +1,179 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Entusiastas venezolanos del lenguaje de
+                                      programación python y todas sus hierbas derivadas.">
+    <meta name="author" content="Manuel Márquez">
+<!-- 
+<link rel="stylesheet" href="../../static/style.css"> -->
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../../css/bootstrap-image-gallery.min.css">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/font-mfizz.css" rel="stylesheet">    
+    <link href="../../css/avatar-snippet.css" rel="stylesheet">
+
+    <title>
+          Acerca del Sitio Python Venezuela.
+     — Python Venezuela</title>
+
+<head/>
+<body>
+
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">pyve</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="../../python/" class="btn btn-theme-navbar">Python</a></li>
+            <li><a href="../../comunidad/" class="btn btn-theme-navbar">Comunidad</a></li>
+            <li class="dropdown">  <!-- start of 'Eventos' -->
+              <a href="#" class="dropdown-toggle btn btn-theme-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../eventos/pytatuy-2016/">PyTatuy 2016</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="../../eventos/pytatuy2013/index.html" target="old">PyTatuy 2013</a></li>
+                <li><a href="../../eventos/pyvemaracay2013/index.html" target="old">PyDay Maracay 2013</a></li>
+              </ul>
+            </li>  <!-- end of 'Eventos' -->
+
+            <li><a href="../../fundacion/" class="btn btn-theme-navbar">Fundación PyVE</a></li>
+            <li><a href="../../contactos/" class="active btn btn-theme-navbar">Contacto</a></li>
+          </ul>
+          
+          <div class="navbar-logo"><img title="pyve Logo" src="../../img/pyve-logo.png" width="90" /></div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav> 
+
+    
+          <div class="container">
+              
+                  <h2>Acerca del Sitio Python Venezuela.</h2>
+              
+              <p><a href="https://travis-ci.org/pyve/pyve.github.io"><img src="https://travis-ci.org/pyve/pyve.github.io.svg?branch=generator" alt="Build Status"></a></p>
+<h1>Sitio Web Python Venezuela.</h1>
+<p>Este proyecto tiene la intención de manejar el control de versiones del sitio
+<a href="http://python.org.ve/">http://python.org.ve/</a> que nos permite tener un pequeño tablero de control de la comunidad Python en
+Venezuela.</p>
+<p>Está basada en el generador de páginas estáticas
+<a href="https://github.com/lektor/lektor">lektor</a></p>
+<h2>¿Cómo correr la página en tu local?</h2>
+<p>Clona el repo (o descarga los archivos) y dentro de la carpeta del proyecto ejecuta:</p>
+<pre><code>sudo pip install lektor
+git clone git@github.com:pyve/pyve.github.com.git
+git checkout generator
+cd pyve.github.com
+lektor server
+</code></pre>
+<p>Luego visita <a href="http://localhost:5000">http://localhost:5000</a> en tu navegador y ¡voilá!</p>
+<h2>Herramientas utilizadas</h2>
+<p>HTML+CSS+JS son las tecnologías empleadas en el diseño web de esta propuesta, el tema está basado en
+el framework de diseño web <a href="http://getbootstrap.com/">Bootstrap</a> y puede ser detallado en el archivo
+<code>assets/css/style.css</code>.</p>
+<h2>Consideraciones del proyecto</h2>
+<ul>
+<li>Este repositorio git trata de cumplir con las reglas que propone el flujo de trabajo <a href="http://nvie.com/posts/a-successful-git-branching-model/">git-flow</a>.</li>
+<li>Esta propuesta trata de cumplir con las reglas que propone el <a href="http://semver.org/lang/es/">versionamiento semantico</a>.</li>
+<li>La organización del contenido está guiada por el sitio <a href="http://pyve.github.io/">python.org.ve</a> actual y por lo escrito en la propuesta del <a href="https://github.com/pyve/pyve.github.com/wiki/Redise%C3%B1o-del-Sitio-Web">Rediseño del Sitio Web</a>.</li>
+</ul>
+<h2>¿Cómo colaborar?</h2>
+<p><strong>Si deseas contribuir en cómo luce el tema del sitio</strong>: Es muy sencillo. Con
+un tanto de conocimiento en <em>javascript</em> y <em>HTML</em> y un manejo básico de control
+de versiones puedes enviar tu primer cambio al sitio.</p>
+<p><strong>Si deseas contribuir agregando contenido</strong>: Es muy sencillo. sigue
+la estrategia de para nuevos contenidos de lektor y haz tu pull request.</p>
+<p>Como requisito, debes tener una cuenta en github y seguir los pasos que enumeramos en el archivo
+<a href="https://github.com/pyve/pyve.github.com/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a>
+desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta fácilmente en la página de
+<a href="http://github.com">github</a>.</p>
+<p><strong>Reglas</strong>:</p>
+<ul>
+<li>Todos los PR deberán pasar las pruebas de travis por consiguiente intenta probar tus PR antes de agregar cambios.</li>
+<li>Si tienes PR pendiente intenta hacer le un rebase cada que veas un commit, estos también se iran mergeando a medida que se agreguen.</li>
+<li>No podremos ni siquiera los administradores hacer push directo al branch generator, intenta mantener tu fork y llega al branch generator con un PR.</li>
+</ul>
+<h3>Descripción de cambios</h3>
+<p>En el archivo <a href="log.md">log.md</a> se van registrando las decisiones de diseño
+durante el desarrollo.</p>
+
+          </div>
+    
+
+   <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h4>Redes Sociales</h4>
+            <div class="hline-w"></div>
+            <p>
+              Tweets acerca de pyve <a href="https://twitter.com/pythonve">@pythonve</a><br/>
+              Tweets acerca de las pycon <a href="http://twitter.com/pyconve/">@pyconve</a><br/>
+              Buscar por <a href="https://twitter.com/search?q=%23pyve">#pyve</a> puede ser más rápido.<br/>
+              Para los que prefieren <a href="https://plus.google.com/101468780661156563423">Google+</a><br/>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h4>Chats y Correos</h4>
+            <div class="hline-w"></div>
+            <p>
+              Nuestra lista de correos en <a href="https://groups.google.com/forum/#!forum/python-venezuela">Google Groups</a><br/>
+              El <a href="https://pyve.slack.com/">slack</a> de pyve<br/>
+              Autoinvitate a nuestro <a href="https://pyveslack.herokuapp.com/">slack</a><br/>
+              Al <a href="https://telegram.me/joinchat/BG6gzwGzSvRriv6QHXp3Mg">Telegram</a> si la cosa es ligth<br/>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h4>Repositorios</h4>
+            <div class="hline-w"></div>
+            <p>
+              Colabora con nosotros en <a href="http://github.com/pyve/">GitHub</a><br/>
+              <a href="https://github.com/pyve/awesome-pyve">Recursos útiles</a> compartidos por pyve<br/>
+              Algunos <a href="https://github.com/pyve/documentos">documentos</a> sobre nuestro operar<br/>
+              <a href="https://github.com/pyve/materiales-eventos">Materiales de los eventos</a> realizados<br/>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h4>Reclutamiento</h4>
+            <div class="hline-w"></div>
+            <p>
+              ¿Interesado(a) en hacer una <a href="https://github.com/pyve/documentos/blob/master/como-hacer-ofertas-de-empleo.md">oferta de trabajo</a> en pyve ?<br/>
+              pyve en <a href="http://www.linkedin.com/groups/Python-Venezuela-4613465">LinkedIn</a><br/>
+              <a href="../../empleos/index.html">Cartelera de Empleos</a> (Beta)<br/>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+     <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script> 
+
+    
+    <script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="../../js/bootstrap-image-gallery.min.js"></script>
+    <script src="../../js/avatar-snippet.js"></script>
+
+    
+</body>
