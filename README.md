@@ -29,7 +29,6 @@ HTML+CSS+JS son las tecnologías empleadas en el diseño web de esta propuesta, 
 el framework de diseño web [Bootstrap](http://getbootstrap.com/) y puede ser detallado en el archivo
 `assets/css/style.css`.
 
-
 ## Consideraciones del proyecto
 
 * Este repositorio git trata de cumplir con las reglas que propone el flujo de trabajo [git-flow](http://nvie.com/posts/a-successful-git-branching-model/).

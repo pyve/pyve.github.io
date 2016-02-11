@@ -82,11 +82,12 @@ El funcionamiento de la compilación de la página es el descrito en la
 
 Consideraciones específicas de éste proyecto:
 
-EL usuario con el que el push a master se está haciendo es `pyvebot`, para éste
+El usuario con el que el push a master se está haciendo es `pyvebot`, para éste
 usuario se ha creado una cuenta de correo no supervisada `pyvebot@gmail.com`,
-dicha cuenta está configurada con un token como es recomendado en la
-documentación, en caso de requerir las credenciales para administrarla para
-futuros automatismos nhomar en gmail.com te puede ayudar.
+dicha cuenta está configurada con un token en github como es recomendado en la
+documentación de lektor para mayor seguridad, en caso de requerir las credenciales
+ para administrarla para futuros automatismos nhomar en gmail.com
+ te puede ayudar.
 
 Se activó el caché y se instala lektor con requirements.txt para poder en dado
 caso automatizar algún otro proceso a través de git hooks.
@@ -107,3 +108,10 @@ A partir de ahora deberás clonar nuevamente tus repositorios para continuar
 contribuyendo como lo has hecho hasta ahora solo que no editarás sobre el
 branch master (éste se generará automáticamente) deberás hacerlo siguiendo las
 estrategias de lektor en el branch generator.
+
+### Generación automática de contenido a partir de los md en el home del proyecto.
+
+Cuando agregamos datos importantes al home, cómo la licencia, los
+contribuidores y el tema de los README y los HOWTO se hizo un script
+.pre-build.py que los convierte en contenido lektor para ser renderizados
+correctamente en la página también.
