@@ -251,6 +251,10 @@ a:focus {
   margin-bottom: 4em;
 }
 
+#features .feature {
+  margin-bottom: 1.5em;
+}
+
 /* Footer */
 footer {
     padding-top: 60px;
