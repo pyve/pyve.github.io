@@ -24,44 +24,6 @@
     src: url('../fonts/ufonts.com_flux.ttf'); /*URL to font*/
 }
 
-/* Extra small devices (less than 768px) */
-@media only screen and (max-width: 767px) {
-    body {
-        font-size: 0.8em;
-    }
-    #headerwrap {
-        padding: 1.5em 0;
-    }
-}
-
-/* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-       font-size: 0.9em;
-    }
-    #headerwrap {
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    #headerwrap {
-        padding-top: 3em;
-        padding-bottom: 3em;
-    }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    #headerwrap {
-        padding-top: 3em;
-        padding-bottom: 3em;
-    }
-}
-
-
 body {
     background: #ffffff;
     margin: 0;
@@ -76,6 +38,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+}
+
+h5 {
+  font-size: 1.7rem;
 }
 
 p {
@@ -136,7 +102,7 @@ a:focus {
 .navbar-brand {
     font-family: 'Flux', sans-serif;
     font-weight: 900;
-    font-size: 75px;
+    font-size: 6rem;
 }
 
 .navbar-header .navbar-brand {
@@ -207,6 +173,8 @@ a:focus {
 #headerwrap {
     background-color: #306896;
     text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #headerwrap h3, h5 {
@@ -243,16 +211,16 @@ a:focus {
 
 #features i {
     color: #558AB7;
-    font-size: 60px;
-    padding: 15px;
+    font-size: 6rem;
+    padding: 1rem;
 }
 
 #features .row {
-  margin-bottom: 4em;
+    margin-bottom: 4rem;
 }
 
 #features .feature {
-  margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
 }
 
 /* Footer */
@@ -290,4 +258,71 @@ footer h4 {
 
 #pyve-logo {
   height: 60px;
+}
+
+
+
+/* Dejemos los media queries al final para que pueda sobreescribir cualquier otro atributo
+ * definido previamente – Wil
+ */
+
+/* Extra small devices (less than 768px) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 0.7rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+    }
+    h5 {
+      font-size: 1.3rem;
+    }
+    #headerwrap {
+        padding: 1.5rem 0;
+    }
+    .navbar-brand {
+        font-size: 4rem;
+    }
+    #features i {
+        font-size: 4rem;
+        padding: 1rem;
+    }
+    #features .feature p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+       font-size: 0.9rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+    #headerwrap {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .navbar-brand {
+        font-size: 5rem;
+    }
+    #features i {
+        font-size: 5rem;
+        padding: 1rem;
+    }
+    #features .feature p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
