@@ -14,7 +14,7 @@ body:
           </div>
 
           <div class="col-lg-8 col-lg-offset-2">
-            <img src="/img/python-logo.png" class="img-responsive">
+            <div id="python-logo" class="img-responsive"></div>
           </div>
 
           <div class="col-lg-8 col-lg-offset-2">

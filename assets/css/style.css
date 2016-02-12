@@ -24,6 +24,44 @@
     src: url('../fonts/ufonts.com_flux.ttf'); /*URL to font*/
 }
 
+/* Extra small devices (less than 768px) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 0.8em;
+    }
+    #headerwrap {
+        padding: 1.5em 0;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+       font-size: 0.9em;
+    }
+    #headerwrap {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #headerwrap {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #headerwrap {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+}
+
+
 body {
     background: #ffffff;
     margin: 0;
@@ -40,14 +78,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-p { 
-    padding: 0; 
-    margin-bottom: 12px; 
+p {
+    padding: 0;
+    margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 24px;
-    color: #1c212b; 
-    margin-top: 10px; 
+    color: #1c212b;
+    margin-top: 10px;
 }
 
 img {
@@ -55,10 +93,10 @@ img {
     max-width: 100%;
 }
 
-a { 
+a {
     padding: 0;
     margin: 0;
-    text-decoration: none; 
+    text-decoration: none;
     -webkit-transition: background-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, color .4s linear;
@@ -168,8 +206,6 @@ a:focus {
 
 #headerwrap {
     background-color: #306896;
-    padding-top: 130px;
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -185,6 +221,19 @@ a:focus {
 
 #headerwrap .img-responsive {
     margin: 0 auto;
+}
+
+#python-logo {
+    width: 270px;
+    height: 82px;
+    background-image: url('/img/python-logo.png');
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #python-logo {
+        background: no-repeat center url('/img/python-logo@2x.png');
+        background-size: 270px 82px;
+    }
 }
 
 /* Features Wrap */
