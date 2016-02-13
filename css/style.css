@@ -40,14 +40,18 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-p { 
-    padding: 0; 
-    margin-bottom: 12px; 
+h5 {
+  font-size: 1.7rem;
+}
+
+p {
+    padding: 0;
+    margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 24px;
-    color: #1c212b; 
-    margin-top: 10px; 
+    color: #1c212b;
+    margin-top: 10px;
 }
 
 img {
@@ -55,10 +59,10 @@ img {
     max-width: 100%;
 }
 
-a { 
+a {
     padding: 0;
     margin: 0;
-    text-decoration: none; 
+    text-decoration: none;
     -webkit-transition: background-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, color .4s linear;
@@ -98,7 +102,7 @@ a:focus {
 .navbar-brand {
     font-family: 'Flux', sans-serif;
     font-weight: 900;
-    font-size: 75px;
+    font-size: 6rem;
 }
 
 .navbar-header .navbar-brand {
@@ -168,9 +172,9 @@ a:focus {
 
 #headerwrap {
     background-color: #306896;
-    padding-top: 130px;
-    padding-bottom: 20px;
     text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #headerwrap h3, h5 {
@@ -187,6 +191,19 @@ a:focus {
     margin: 0 auto;
 }
 
+#python-logo {
+    width: 270px;
+    height: 82px;
+    background-image: url('/img/python-logo.png');
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #python-logo {
+        background: no-repeat center url('/img/python-logo@2x.png');
+        background-size: 270px 82px;
+    }
+}
+
 /* Features Wrap */
 #features {
     margin-top: 4em;
@@ -194,12 +211,16 @@ a:focus {
 
 #features i {
     color: #558AB7;
-    font-size: 60px;
-    padding: 15px;
+    font-size: 6rem;
+    padding: 1rem;
 }
 
 #features .row {
-  margin-bottom: 4em;
+    margin-bottom: 4rem;
+}
+
+#features .feature {
+    margin-bottom: 1.5rem;
 }
 
 /* Footer */
@@ -233,4 +254,75 @@ footer h4 {
    color: #fff;
    background-color: #2D628D;
    border-color: #2D628D;
+}
+
+#pyve-logo {
+  height: 60px;
+}
+
+
+
+/* Dejemos los media queries al final para que pueda sobreescribir cualquier otro atributo
+ * definido previamente – Wil
+ */
+
+/* Extra small devices (less than 768px) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 0.7rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+    }
+    h5 {
+      font-size: 1.3rem;
+    }
+    #headerwrap {
+        padding: 1.5rem 0;
+    }
+    .navbar-brand {
+        font-size: 4rem;
+    }
+    #features i {
+        font-size: 4rem;
+        padding: 1rem;
+    }
+    #features .feature p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+       font-size: 0.9rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+    #headerwrap {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .navbar-brand {
+        font-size: 5rem;
+    }
+    #features i {
+        font-size: 5rem;
+        padding: 1rem;
+    }
+    #features .feature p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
