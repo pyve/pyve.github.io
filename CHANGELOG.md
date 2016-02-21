@@ -72,7 +72,7 @@ Venezuela.
 ## Enlace a otros sitios
 
 He dejado los enoaces a sitios que están dentro de pyve pero son autónomos con
-dirección absoluta y no relativa. Ejemplo, http://pyve.github.io/empleos/ y
+dirección absoluta y no relativa. Ejemplo, http://www.python.info.ve/empleos/ y
 las páginas propias de los eventos listados.
 
 ## Github y Travis [Borrador]
