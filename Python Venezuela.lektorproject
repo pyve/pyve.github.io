@@ -3,4 +3,4 @@ name = Python Venezuela
 
 [servers.generator]
 username = pyve
-target = ghpages+https://pyve/pyve.github.io?cname=www.python.info.ve
+target = ghpages+https://pyve/pyve.github.io?cname=www.python2.org.ve
