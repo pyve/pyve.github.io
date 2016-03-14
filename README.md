@@ -33,7 +33,7 @@ el framework de diseño web [Bootstrap](http://getbootstrap.com/) y puede ser de
 
 * Este repositorio git trata de cumplir con las reglas que propone el flujo de trabajo [git-flow](http://nvie.com/posts/a-successful-git-branching-model/).
 * Esta propuesta trata de cumplir con las reglas que propone el [versionamiento semantico](http://semver.org/lang/es/).
-* La organización del contenido está guiada por el sitio [python.org.ve](http://pyve.github.io/) actual y por lo escrito en la propuesta del [Rediseño del Sitio Web](https://github.com/pyve/pyve.github.com/wiki/Redise%C3%B1o-del-Sitio-Web).
+* La organización del contenido está guiada por el sitio [python.info.ve](http://www.python.info.ve/) actual y por lo escrito en la propuesta del [Rediseño del Sitio Web](https://github.com/pyve/pyve.github.com/wiki/Redise%C3%B1o-del-Sitio-Web).
 
 ## ¿Cómo colaborar?
 
