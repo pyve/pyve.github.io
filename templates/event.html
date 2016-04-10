@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <div class="themewrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+  {% if this.title %}<h2>{{ this.title }}</h2>{% endif %}
+  {{ this.desc }}
+
+  {% if this.where %}
+  <h2>Dónde</h2>
+  {{ this.where }}
+  {% endif %}
+
+  {% if this.when_start %}
+  <h2>Cuándo</h2>
+  {% if this.when_end %}Desde {% endif %}
+  {{ this.when_start.strftime('%d de %B de %Y') }}
+  a las {{ this.when_start.strftime('%-I:%M %p') }}
+  {% if this.when_end %}
+  <br /> Hasta {{ this.when_end.strftime('%d de %B de %Y') }}
+  a las {{ this.when_end.strftime('%-I:%M %p') }}
+  {% endif %}
+  {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
