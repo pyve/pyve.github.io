@@ -43,7 +43,10 @@
             <li class="dropdown">  <!-- start of 'Eventos' -->
               <a href="#" class="dropdown-toggle btn btn-theme-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="{{'/eventos/pytatuy-2016/'|url}}">PyTatuy 2016</a></li>
+                {% for event in  site.get('/eventos/').children %}
+                  <li{% if this == event %} class="active"{% endif
+                    %}><a href="{{ event|url }}">{{ event.title }}</a></li>
+                {% endfor %}        
                 <li role="separator" class="divider"></li>
                 <li><a href="{{'/eventos/pytatuy2013/index.html'|url}}" target="old">PyTatuy 2013</a></li>
                 <li><a href="{{'/eventos/pyvemaracay2013/index.html'|url}}" target="old">PyDay Maracay 2013</a></li>
