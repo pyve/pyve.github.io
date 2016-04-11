@@ -1,1 +1,1 @@
-lektor==1.2.1
+lektor==2.0

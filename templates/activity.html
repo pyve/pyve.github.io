@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% from "macros/activity.html" import render_activity %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  {{ render_activity(this) }}
+{% endblock %}

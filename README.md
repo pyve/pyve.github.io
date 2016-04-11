@@ -55,6 +55,39 @@ desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta fácilmente en
 - Si tienes PR pendiente intenta hacer le un rebase cada que veas un commit, estos también se iran mergeando a medida que se agreguen.
 - No podremos ni siquiera los administradores hacer push directo al branch generator, intenta mantener tu fork y llega al branch generator con un PR.
 
+### Añadir contenido
+
+Siguiendo la filosofía de Lektor, todo el contenido están incluído en la
+carpeta `content` siguiendo una estructura gerárquica. Las principales
+secciones son:
+
+ * Comunidad
+ * Contactos
+ * Documentación
+ * Eventos
+ * Fundación
+ * Lista de Correos
+ * Python
+
+ La manera más fácil de añadir contenido es utilizando el *admin* de Lektor:
+
+     $ lektor server
+
+En él puedes navegar hasta la sección que contendrá tu nuevo contenido, y le
+das a _añadir página_. Le colocas un nombre a la _página_ y Lektor te
+presentará un formulario con los campos adecuados al tipo de página que vayas
+a crear.
+
+Por ejemplo, si vas a la sección de _Eventos_ y creas una página ahí, el
+formulario te presentará todos los campos necesarios para definir un evento,
+como por ejemplo el lugar y la fecha del evento.
+
+Y siguiendo con este ejemplo, si luego de crear el evento creas una página
+dentro de él, esa página será una _Actividad_. Por lo tanto, el formulario que
+verás será el adecuado para una ello, tendrás campos como tipo de
+actividad, para saber si es una exposición o un taller, o el nombre del
+ponente.
+
 ### Descripción de cambios
 
 En el archivo [log.md](log.md) se van registrando las decisiones de diseño

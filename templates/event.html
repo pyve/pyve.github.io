@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% from "macros/activity.html" import render_activity %}
+{% from "macros/utils.html" import since_until %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <div class="themewrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+
+  {% if this.title %}<h2>{{ this.title }}</h2>{% endif %}
+  {{ this.desc }}
+
+  {% if this.where %}
+  <h2>Dónde</h2>
+  {{ this.where }}
+  {% endif %}
+
+  {% if this.when_start %}
+  <h2>Cuándo</h2>
+  {% endif %}
+  {{ since_until(this.when_start, this.when_end) }}
+  {% if this.children %}<h2>Actividades</h2>{% endif %}
+  {% for child in this.children %}
+    {{ render_activity(child, from_index=true) }}
+  {% endfor %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

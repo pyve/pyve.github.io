@@ -1,0 +1,17 @@
+{% from "macros/utils.html" import since_until %}
+{% macro render_activity(activity, from_index=false) %}
+  <div class="activity">
+  {% if from_index %}
+    <h2><a href="{{ activity|url }}">{{ activity.title }}</a></h2>
+  {% else %}
+    <h2>{{ activity.title }}</h2>
+  {% endif %}
+  <p class="meta">
+    Por:
+    {{ activity.author_name }}
+    on {{ activity.when_start }}
+  </p>
+  {{ activity.resume }}
+  {{ since_until(activity.when_start, activity.when_end) }}
+  </div>
+{% endmacro %}
