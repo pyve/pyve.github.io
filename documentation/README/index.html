@@ -45,7 +45,11 @@
             <li class="dropdown">  <!-- start of 'Eventos' -->
               <a href="#" class="dropdown-toggle btn btn-theme-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="../../eventos/pytatuy-2016/">PyTatuy 2016</a></li>
+                
+                  <li><a href="../../eventos/pyday-caracas-2016-1/">PyDay Caracas 2016 (1)</a></li>
+                
+                  <li><a href="../../eventos/pytatuy-2016/">PyTatuy 2016</a></li>
+                        
                 <li role="separator" class="divider"></li>
                 <li><a href="../../eventos/pytatuy2013/index.html" target="old">PyTatuy 2013</a></li>
                 <li><a href="../../eventos/pyvemaracay2013/index.html" target="old">PyDay Maracay 2013</a></li>
@@ -110,8 +114,36 @@ desde tu cuenta. Si no tienes una cuenta, puedes crear una cuenta fácilmente en
 <li>Si tienes PR pendiente intenta hacer le un rebase cada que veas un commit, estos también se iran mergeando a medida que se agreguen.</li>
 <li>No podremos ni siquiera los administradores hacer push directo al branch generator, intenta mantener tu fork y llega al branch generator con un PR.</li>
 </ul>
+<h3>Añadir contenido</h3>
+<p>Siguiendo la filosofía de Lektor, todo el contenido están incluído en la
+carpeta <code>content</code> siguiendo una estructura gerárquica. Las principales
+secciones son:</p>
+<ul>
+<li>Comunidad</li>
+<li>Contactos</li>
+<li>Documentación</li>
+<li>Eventos</li>
+<li>Fundación</li>
+<li>Lista de Correos</li>
+<li><p>Python</p>
+<p>La manera más fácil de añadir contenido es utilizando el <em>admin</em> de Lektor:</p>
+<p>$ lektor server</p>
+</li>
+</ul>
+<p>En él puedes navegar hasta la sección que contendrá tu nuevo contenido, y le
+das a <em>añadir página</em>. Le colocas un nombre a la <em>página</em> y Lektor te
+presentará un formulario con los campos adecuados al tipo de página que vayas
+a crear.</p>
+<p>Por ejemplo, si vas a la sección de <em>Eventos</em> y creas una página ahí, el
+formulario te presentará todos los campos necesarios para definir un evento,
+como por ejemplo el lugar y la fecha del evento.</p>
+<p>Y siguiendo con este ejemplo, si luego de crear el evento creas una página
+dentro de él, esa página será una <em>Actividad</em>. Por lo tanto, el formulario que
+verás será el adecuado para una ello, tendrás campos como tipo de
+actividad, para saber si es una exposición o un taller, o el nombre del
+ponente.</p>
 <h3>Descripción de cambios</h3>
-<p>En el archivo <a href="log.md">log.md</a> se van registrando las decisiones de diseño
+<p>En el archivo <a href="../../documentation/README/log.md">log.md</a> se van registrando las decisiones de diseño
 durante el desarrollo.</p>
 
           </div>
