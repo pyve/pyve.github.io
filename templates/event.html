@@ -23,7 +23,7 @@
   {{ since_until(this.when_start, this.when_end) }}
   {% if this.children %}<h2>Actividades</h2>{% endif %}
   {% for child in this.children %}
-    {{ render_activity(child, from_index=true) }}
+    {{ render_activity(child) }}
   {% endfor %}
 
           </div>

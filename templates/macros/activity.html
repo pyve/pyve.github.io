@@ -1,17 +1,19 @@
 {% from "macros/utils.html" import since_until %}
-{% macro render_activity(activity, from_index=false) %}
+{% macro render_activity(activity) %}
   <div class="activity">
-  {% if from_index %}
-    <h2><a href="{{ activity|url }}">{{ activity.title }}</a></h2>
-  {% else %}
-    <h2>{{ activity.title }}</h2>
-  {% endif %}
+    <h3>{{ activity.title }}</h3>
   <p class="meta">
-    Por:
+    {{ activity.type }}, por:
     {{ activity.author_name }}
-    on {{ activity.when_start }}
   </p>
+  <p>
   {{ activity.resume }}
+  </p>
   {{ since_until(activity.when_start, activity.when_end) }}
+  <ul>
+  {% for topic in activity.topics%}
+  <li>{{ topic }}</li>
+  {% endfor %}
+  </ul>
   </div>
 {% endmacro %}
