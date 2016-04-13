@@ -1,5 +1,6 @@
 [project]
 name = Python Venezuela
+locale = es_VE
 
 [servers.generator]
 username = pyve
