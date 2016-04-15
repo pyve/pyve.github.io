@@ -1,0 +1,18 @@
+title: Instalación y personalización de pydev en eclipse
+---
+author_name: Rafael D. Torres R.
+---
+resume:
+
+Se presentará el plugin Pydev para el IDE eclipse, conoceremos el estado del plugin, su instalación y
+configuración para distintos entornos de desarrollo, además se conversara sobre las bondades y
+deficiencias del mismo, junto a una pequeña comparasión con otras alternativas para el desarrollo de
+software con lenguaje python.
+---
+type: exposition
+---
+topics: ides
+---
+when_start: 2016-04-21 15:45:00 America/Caracas
+---
+when_end: 2016-04-21 16:30:00 America/Caracas
