@@ -1,0 +1,19 @@
+title: Python y Selenium
+---
+_discoverable: yes
+---
+author_name: Rafael D. Torres R.
+---
+resume:
+
+Hablaremos sobre la técnica de _scraper_ con Python. Conoceremos cómo configurar Selenium para extraer
+información de las páginas web y hacer pruebas unitarias. Además aclararemos las ventajas y desventajas de
+Selenium y conoceremos otros paquetes para hacer _scrapping_.
+---
+topics: web, hacking
+---
+type: exposition
+---
+when_start: 2016-04-22 14:00:00 America/Caracas
+---
+when_end: 2016-04-22 14:45:00 America/Caracas
