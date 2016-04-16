@@ -1,11 +1,11 @@
 {% macro since_until(since=None, until=None) %}
   {% if since %}
   Desde el
-  {{ since.strftime('%d de %B de %Y') }}
-  a las {{ since.strftime('%-I:%M %p') }}
+  {{ since|dateformat('full') }}
+  a las {{ since|timeformat('short') }}
   {% endif %}
   {% if until %}
-  <br /> Hasta el {{ until.strftime('%d de %B de %Y') }}
-  a las {{ until.strftime('%-I:%M %p') }}
+  <br /> Hasta el {{ until|dateformat('full')}}
+  a las {{ until|timeformat('short') }}
   {% endif %}
 {% endmacro %}
