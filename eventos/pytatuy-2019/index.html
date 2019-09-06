@@ -19,9 +19,7 @@
     <link href="../../css/font-mfizz.css" rel="stylesheet">    
     <link href="../../css/avatar-snippet.css" rel="stylesheet">
 
-    <title>
-          Acerca del Sitio Python Venezuela.
-     — Python Venezuela</title>
+    <title>PyTatuy 2019 — Python Venezuela</title>
 
 <head/>
 <body>
@@ -46,6 +44,8 @@
               <a href="#" class="dropdown-toggle btn btn-theme-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 
+                  <li class="active"><a href="../../eventos/pytatuy-2019/">PyTatuy 2019</a></li>
+                
                   <li><a href="../../eventos/pyday-caracas-2016-1/">PyDay Caracas 2016 (1)</a></li>
                 
                   <li><a href="../../eventos/pytatuy-2016/">PyTatuy 2016</a></li>
@@ -68,98 +68,296 @@
     </nav> 
 
     
-          <div class="container">
-              
-                  <h2>Acerca del Sitio Python Venezuela.</h2>
-              
-              <h1>Decisiones de diseño</h1>
-<h2>Nuevos modelos: page-html y page-md</h2>
-<p>La página de contactos era muy sencilla y podía escribirse en markdown.</p>
-<p>Este es su contenido en markdown:</p>
-<pre><code class="lang-markdown">### Lista de correo
+    <div class="themewrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
 
-[python-venezuela](https://groups.google.com/forum/#!forum/python-venezuela)
 
-### Redes Sociales
+  <h2>PyTatuy 2019</h2>
+  <p>5to Día Python de Mérida</p>
 
-[Twitter](https://twitter.com/PyConVe)
 
-[Facebook](https://www.facebook.com/python.ve/)
+  
+  <h2>Dónde</h2>
+  Av. 3 entre calles 20 y 21. Torre Empresarial Gran Mundo. Piso 7. Oficina 7-2. Mérida, Venezuela
+  
 
-[G+](https://plus.google.com/communities/113174766589037119283)
+  
+  <h2>Cuándo</h2>
+  
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 9:00 a. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 4:00 p. m.
+  
 
-[LinkedIn](https://www.linkedin.com/company/fundaci%C3%B3n-python-de-venezuela?)
-</code></pre>
-<p>Daba lástima dejarlo en Html, y fue la oportunidad para incluir markdown entre
-los posibles lenguajes de marcado a utilizar.</p>
-<p>El modelo page-md lo basé en page-html. La única diferencia es el tipo del
-campo body, que en este caso es markdown.</p>
-<p>La plantilla page-md.html fue casi idéntica a page-html.html, pero tuve que
-envolver lo que tenía anteriormente el bloque body dentro de unas etiquetas que
-tenían las páginas originales.</p>
-<p>El bloque body dentro de la nueva plantilla quedó así:</p>
-<pre><code class="lang-markdown">{% block body %}
-    &lt;div class=&quot;themewrap&quot;&gt;
-      &lt;div class=&quot;container&quot;&gt;
-        &lt;div class=&quot;row&quot;&gt;
-          &lt;div class=&quot;col-md-12&quot;&gt;
-  {% if this.title %}&lt;h2&gt;{{ this.title }}&lt;/h2&gt;{% endif %}
-  {{ this.body }}
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-{% endblock %}
-</code></pre>
-<p>Ahora tenemos dos modelos: page-html y page-md, para elegir al momento de hacer
-una página.</p>
-<h2>Nuevo modelo: page-html-end-addon</h2>
-<p>Este modelo tuve que definirlo para poder incluir un script arbitrario al final
-de una página.</p>
-<p>El caso específico fue lapágina de la comunidad, que incluye un script al final
-de la página, lo cuál no cumplía con el patrón de (cabecera, cuerpo, pie) de
-todas las demás, donde sólo el cuerpo varía. En esta página, el pie era
-diferente.</p>
-<p>Añadía un bloque llamado "addon" al final del layout principal, que todos pueden
-definir. El nuevo modelo page-html-end-addon incluye un campo addon que su layout
-coloca en el bloque mencionado.</p>
-<p>De esta manera, pude agregar el script que llena la lista de los pythonistas de
-Venezuela.</p>
-<h2>Enlace a otros sitios</h2>
-<p>He dejado los enoaces a sitios que están dentro de pyve pero son autónomos con
-dirección absoluta y no relativa. Ejemplo, <a href="http://www.python.info.ve/empleos/">http://www.python.info.ve/empleos/</a> y
-las páginas propias de los eventos listados.</p>
-<h2>Github y Travis [Borrador]</h2>
-<p>El funcionamiento de la compilación de la página es el descrito en la
-<a href="https://www.getlektor.com/docs/deployment/travisci/">documentación oficial de lektor.</a></p>
-<p>Consideraciones específicas de éste proyecto:</p>
-<p>El usuario con el que el push a master se está haciendo es <code>pyvebot</code>, para éste
-usuario se ha creado una cuenta de correo no supervisada <code>pyvebot@gmail.com</code>,
-dicha cuenta está configurada con un token en github como es recomendado en la
-documentación de lektor para mayor seguridad, en caso de requerir las credenciales
- para administrarla para futuros automatismos nhomar en gmail.com
- te puede ayudar.</p>
-<p>Se activó el caché y se instala lektor con requirements.txt para poder en dado
-caso automatizar algún otro proceso a través de git hooks.</p>
-<p>La Configuración de travis quedó como se muestr en la imagen.</p>
-<p><img src="https://www.evernote.com/l/AJ5glPUCbRVCQJz0uT4M_3nBaiIDIz6EOFMB/image.png" alt="Travis Config"></p>
-<p>Si tienes alguna pregunta levanta un issue en éste mismo proyecto.</p>
-<p>Ahora en términos de seguridad para el repositorio algunas opciones se
-habilitaron, debido a que todos estamos en proceso de aprendizaje y debemos
-evitar errores al menos en code per review.</p>
-<p>En el README colocaré dichos elementos de seguridad.</p>
-<p>A partir de ahora deberás clonar nuevamente tus repositorios para continuar
-contribuyendo como lo has hecho hasta ahora solo que no editarás sobre el
-branch master (éste se generará automáticamente) deberás hacerlo siguiendo las
-estrategias de lektor en el branch generator.</p>
-<h3>Generación automática de contenido a partir de los md en el home del proyecto.</h3>
-<p>Cuando agregamos datos importantes al home, cómo la licencia, los
-contribuidores y el tema de los README y los HOWTO se hizo un script
-.pre-build.py que los convierte en contenido lektor para ser renderizados
-correctamente en la página también.</p>
+  <h2>Actividades</h2>
+  
+    
+  <div class="activity">
+    <h3>¿Qué es Plone CMS? Novedades y flexibilidad para soluciones empresariales hoy en día</h3>
+  <p class="meta">
+    exposition, por:
+    Leonardo Caballero
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 9:00 a. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 9:30 a. m.
+  
+
+  <ul>
+  
+  <li>frameworks</li>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Ambientes de desarrollo usando pyenv y pipenv</h3>
+  <p class="meta">
+    exposition, por:
+    Leonardo Alviarez
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 9:40 a. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 10:10 a. m.
+  
+
+  <ul>
+  
+  <li>ides</li>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Automatización industrial con Python (Rackio Framework)</h3>
+  <p class="meta">
+    exposition, por:
+    Nelson Carrasquel
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 10:20 a. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 10:50 a. m.
+  
+
+  <ul>
+  
+  <li>frameworks</li>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Procesamiento de lenguaje natural con Python</h3>
+  <p class="meta">
+    exposition, por:
+    Carlos Gutiérrez
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 11:00 a. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 11:30 a. m.
+  
+
+  <ul>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>El patrón funcional</h3>
+  <p class="meta">
+    exposition, por:
+    Jesús Gómez
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 11:40 a. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 12:10 p. m.
+  
+
+  <ul>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Programar con Vim (casi) donde sea</h3>
+  <p class="meta">
+    exposition, por:
+    Miguel Angel Rivera Notararigo
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 1:30 p. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 2:00 p. m.
+  
+
+  <ul>
+  
+  <li>ides</li>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Introducción al Data Science, Machine Learning, Deep Learning, Artificial Intelligence con Python</h3>
+  <p class="meta">
+    exposition, por:
+    Leonardo Caballero
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 2:10 p. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 2:40 p. m.
+  
+
+  <ul>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Creación de proyectos Python/Django y otras especies con plantillas</h3>
+  <p class="meta">
+    exposition, por:
+    Hernán Ramírez
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 2:50 p. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 3:20 p. m.
+  
+
+  <ul>
+  
+  <li>frameworks</li>
+  
+  </ul>
+  </div>
+
+  
+    
+  <div class="activity">
+    <h3>Cuadernos de Jupyter</h3>
+  <p class="meta">
+    exposition, por:
+    Francisco Palm
+  </p>
+  <p>
+  
+  </p>
+  
+  
+  Desde el
+  viernes, 13 de septiembre de 2019
+  a las 3:30 p. m.
+  
+  
+  <br /> Hasta el viernes, 13 de septiembre de 2019
+  a las 4:00 p. m.
+  
+
+  <ul>
+  
+  </ul>
+  </div>
+
+  
 
           </div>
-    
+        </div>
+      </div>
+    </div>
+
 
    <footer>
       <div class="container">
@@ -181,7 +379,7 @@ correctamente en la página también.</p>
               Nuestra lista de correos en <a href="https://groups.google.com/forum/#!forum/python-venezuela">Google Groups</a><br/>
               El <a href="https://pyve.slack.com/">slack</a> de pyve<br/>
               Autoinvitate a nuestro <a href="https://pyveslack.herokuapp.com/">slack</a><br/>
-              Al <a href="https://telegram.me/joinchat/BG6gzwGzSvRriv6QHXp3Mg">Telegram</a> si la cosa es ligth<br/>
+              Al <a href="https://t.me/python_venezuela">Telegram</a> si la cosa es ligth<br/>
             </p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
@@ -199,7 +397,7 @@ correctamente en la página también.</p>
             <div class="hline-w"></div>
             <p>
               ¿Interesado(a) en hacer una <a href="https://github.com/pyve/documentos/blob/master/como-hacer-ofertas-de-empleo.md">oferta de trabajo</a> en pyve ?<br/>
-              pyve en <a href="http://www.linkedin.com/groups/Python-Venezuela-4613465">LinkedIn</a><br/>
+              pyve en <a href="http://www.linkedin.com/groups/4613465">LinkedIn</a><br/>
               <a href="../../empleos/index.html">Cartelera de Empleos</a> (Beta)<br/>
             </p>
           </div>
